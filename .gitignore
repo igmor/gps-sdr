@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Captures, tracking output, downloaded orbit files, and anything containing fixes
+# (fix/map files hold the receiver's location). Keep the directory itself.
+data/*
+!data/.gitkeep
